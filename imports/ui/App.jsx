@@ -17,7 +17,7 @@ const UseTheContext = lazy(() => import("./use-context.js"));
 export const App = () => (
   <Router>
     <AccountProvider>
-      <h1>Welcome to Meteor!</h1>
+      <h1>Welcome to Meteor 1.12!</h1>
       <Suspense fallback={<div>loading...</div>}>
         <Switch>
           <Route component={UseTheContext} />
